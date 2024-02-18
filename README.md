@@ -1,24 +1,25 @@
-# README
+# Rails Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Created as part of The Odin Project[^1]. Supports link submissions and commenting. Rails console only, no front end.
 
-Things you may want to cover:
+## Requirement
 
-* Ruby version
+- Ruby `3.2.2`
+- Rails `7.1.3`
+- sqlite3 `1.4`
 
-* System dependencies
+## Install  (First time only)
+Dependencies
+- Install ruby `3.2.2`
+- Install rails dependencies: `bundle install`
 
-* Configuration
+## Database creation & initialization
 
-* Database creation
+- `bin/rails db:create`
+- `bin/rails db:migrate`
 
-* Database initialization
+## Data Model
 
-* How to run the test suite
+![Data model](micro-reddit.drawio.png)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[^1]: The Odin Project. _Project: Micro-Reddit_. https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit
