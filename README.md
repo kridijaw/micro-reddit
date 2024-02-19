@@ -1,6 +1,8 @@
 # Rails Micro-Reddit
 
-Created as part of The Odin Project[^1]. Supports link submissions and commenting. Rails console only, no front end.
+Created as part of The Odin Project.[^1] 
+
+Supports link submissions and commenting. Rails console only, no front end.
 
 ## Requirement
 
